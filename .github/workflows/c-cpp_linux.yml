@@ -16,7 +16,7 @@ jobs:
     - name: install dependencies
       run: sudo apt install -y libsdl2-dev libsdl2-mixer-dev
     - name: make
-      run: src/make
+      run: make -C src/
     - uses: actions/upload-artifact@v3
       with:
         name: linux-x64-nightly
