@@ -61,3 +61,8 @@ rott.exe
 *.RTL
 *.RTS
 *.WAD
+
+# Clutter
+*.rot
+build/
+.vscode/
