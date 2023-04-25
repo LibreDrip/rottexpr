@@ -1,3 +1,16 @@
+# LibreDrip personal todo
+
+- [ ] GitHub Action Windows Build
+- Linux:
+	- [X] GitHub Action
+	- [ ] read gamefiles from /opt/rottexpr OR .local/share/rottexpr
+	- [ ] simple export script like `game-data-packager` in debian, but also with already extracted installer
+	- [ ] debian package
+		- [ ] .desktop
+			- [X] find icon (taken from SDL1 Port)
+			- [X] Categories (taken from SDL1 Port)
+	- [ ] flatpak
+
 # rottexpr
 
 Based off of the icculus Rise of the Triad source port
